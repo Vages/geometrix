@@ -1,5 +1,6 @@
 <script>
 	import RectangleDemo from './RectangleDemo.svelte';
+	import TriangleDemo from './TriangleDemo.svelte';
 </script>
 
 <h1><code>geometrix</code></h1>
@@ -13,6 +14,7 @@
 <h2>Demonstrasjon av funksjoner</h2>
 
 <RectangleDemo />
+<TriangleDemo />
 
 <style>
 	h1 {
