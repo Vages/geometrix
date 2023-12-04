@@ -16,3 +16,10 @@
 	circleArea(
 	<input type="number" bind:value={radius} /> ) ≈ {Math.round(result * 100) / 100}</code
 >
+
+<style>
+  img {
+    height: 4rem;
+    width: auto;
+  }
+</style>

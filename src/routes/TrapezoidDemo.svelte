@@ -21,3 +21,10 @@
 	<input type="number" bind:value={height} />
 	) = {result}</code
 >
+
+<style>
+	img {
+		height: 4rem;
+		width: auto;
+	}
+</style>
