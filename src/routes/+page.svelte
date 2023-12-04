@@ -3,6 +3,7 @@
 	import RectangleDemo from './RectangleDemo.svelte';
 	import TriangleDemo from './TriangleDemo.svelte';
 	import TrapezoidDemo from './TrapezoidDemo.svelte';
+	import CircleDemo from './CircleDemo.svelte';
 </script>
 
 <h1><code>geometrix</code></h1>
@@ -23,6 +24,9 @@
 </DemoFrame>
 <DemoFrame>
 	<TrapezoidDemo />
+</DemoFrame>
+<DemoFrame>
+	<CircleDemo />
 </DemoFrame>
 
 <style>

@@ -1,6 +1,6 @@
 import { describe, it, expect } from 'vitest';
 
-import { rectangleArea, triangleArea, trapezoidArea } from '$lib/index.js';
+import { rectangleArea, triangleArea, trapezoidArea, circleArea } from '$lib/index.js';
 
 describe('rectangle area', () => {
 	it('area with width 3 and height 4 equals 12', () => {
@@ -26,5 +26,14 @@ describe('trapezoid area', () => {
 	});
 	it('area with top width 0, bottom width 0 and height 0 to equal 0', () => {
 		expect(trapezoidArea(0, 0, 0)).toBe(0);
+	});
+});
+
+describe('circle area', () => {
+	it('area with radius 1 equals Math.PI', () => {
+		expect(circleArea(1)).toBe(Math.PI);
+	});
+	it('area with top width 0, bottom width 0 and height 0 to equal 0', () => {
+		expect(circleArea(0)).toBe(0);
 	});
 });

@@ -9,3 +9,7 @@ export function rectangleArea(width: number, height: number): number {
 export function trapezoidArea(topWidth: number, bottomWidth: number, height: number): number {
 	return triangleArea(topWidth + bottomWidth, height);
 }
+
+export function circleArea(radius: number): number {
+	return radius * radius * Math.PI;
+}
