@@ -10,7 +10,7 @@
 	<code>rectangleArea(width, height)</code>
 </h3>
 <p>Regner ut arealet av et rektangel: <code>width * height</code></p>
-<enhanced:img src="./rectangle.png" alt="Rektangel" />
+<enhanced:img class="illustration" src="./rectangle.png" alt="Rektangel" />
 
 <h4>Demo</h4>
 <code>
@@ -19,10 +19,3 @@
 	<input type="number" bind:value={height} />
 	) = {result}</code
 >
-
-<style>
-  img {
-    height: 4rem;
-    width: auto;
-  }
-</style>

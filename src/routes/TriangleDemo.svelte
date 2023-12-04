@@ -10,7 +10,7 @@
 	<code>triangleArea(width, height)</code>
 </h3>
 <p>Regner ut arealet av en trekant: <code>width * height / 2</code></p>
-<enhanced:img src="./triangle.png" alt="Trekant" />
+<enhanced:img class="illustration" src="./triangle.png" alt="Trekant" />
 
 <h4>Demo</h4>
 <code>
@@ -19,10 +19,3 @@
 	<input type="number" bind:value={height} />
 	) = {result}</code
 >
-
-<style>
-  img {
-    height: 4rem;
-    width: auto;
-  }
-</style>

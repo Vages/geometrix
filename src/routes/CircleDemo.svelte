@@ -9,17 +9,10 @@
 	<code>circleArea(radius, height)</code>
 </h3>
 <p>Regner ut arealet av en sirkel: <code>π * radius * radius</code></p>
-<enhanced:img src="./circle.png" alt="Sirkel" />
+<enhanced:img class="illustration" src="./circle.png" alt="Sirkel" />
 
 <h4>Demo</h4>
 <code>
 	circleArea(
 	<input type="number" bind:value={radius} /> ) ≈ {Math.round(result * 100) / 100}</code
 >
-
-<style>
-  img {
-    height: 4rem;
-    width: auto;
-  }
-</style>

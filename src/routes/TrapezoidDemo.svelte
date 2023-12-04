@@ -11,7 +11,7 @@
 	<code>trapezoidArea(topWidth, bottomWidth, height)</code>
 </h3>
 <p>Regner ut arealet av et trapes: <code>(topWidth + bottomWidth) * height / 2</code></p>
-<enhanced:img src="./trapezoid.png" alt="Trapes" />
+<enhanced:img class="illustration" src="./trapezoid.png" alt="Trapes" />
 
 <h4>Demo</h4>
 <code>
@@ -21,10 +21,3 @@
 	<input type="number" bind:value={height} />
 	) = {result}</code
 >
-
-<style>
-	img {
-		height: 4rem;
-		width: auto;
-	}
-</style>
