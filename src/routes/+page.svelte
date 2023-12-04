@@ -1,4 +1,5 @@
 <script>
+	import DemoFrame from '$lib/DemoFrame.svelte';
 	import RectangleDemo from './RectangleDemo.svelte';
 	import TriangleDemo from './TriangleDemo.svelte';
 </script>
@@ -13,8 +14,12 @@
 
 <h2>Demonstrasjon av funksjoner</h2>
 
-<RectangleDemo />
-<TriangleDemo />
+<DemoFrame>
+	<RectangleDemo />
+</DemoFrame>
+<DemoFrame>
+	<TriangleDemo />
+</DemoFrame>
 
 <style>
 	h1 {
