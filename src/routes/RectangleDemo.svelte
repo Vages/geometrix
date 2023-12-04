@@ -9,8 +9,9 @@
 <h3>
 	<code>rectangleArea(width, height)</code>
 </h3>
-
 <p>Regner ut arealet av et rektangel: <code>width * height</code></p>
+<enhanced:img src="./rectangle.png" alt="Rektangel" />
+
 <h4>Demo</h4>
 <code>
 	rectangleArea(

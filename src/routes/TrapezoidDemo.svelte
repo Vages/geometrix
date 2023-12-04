@@ -10,8 +10,9 @@
 <h3>
 	<code>trapezoidArea(topWidth, bottomWidth, height)</code>
 </h3>
-
 <p>Regner ut arealet av et trapes: <code>(topWidth + bottomWidth) * height / 2</code></p>
+<enhanced:img src="./trapezoid.png" alt="Trapes" />
+
 <h4>Demo</h4>
 <code>
 	trapezoidArea(

@@ -8,8 +8,9 @@
 <h3>
 	<code>circleArea(radius, height)</code>
 </h3>
-
 <p>Regner ut arealet av en sirkel: <code>π * radius * radius</code></p>
+<enhanced:img src="./circle.png" alt="Sirkel" />
+
 <h4>Demo</h4>
 <code>
 	circleArea(

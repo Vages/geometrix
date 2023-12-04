@@ -9,8 +9,9 @@
 <h3>
 	<code>triangleArea(width, height)</code>
 </h3>
-
 <p>Regner ut arealet av en trekant: <code>width * height / 2</code></p>
+<enhanced:img src="./triangle.png" alt="Trekant" />
+
 <h4>Demo</h4>
 <code>
 	triangleArea(
