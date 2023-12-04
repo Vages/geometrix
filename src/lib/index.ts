@@ -1,1 +1,3 @@
-// Reexport your entry components here
+export function rectangleArea(width: number, height: number): number {
+	return width * height;
+}

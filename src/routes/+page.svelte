@@ -1,6 +1,18 @@
-<h1>Welcome to your library project</h1>
-<p>Create your package using @sveltejs/package and preview/showcase your work with SvelteKit</p>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+	import RectangleDemo from './RectangleDemo.svelte';
+</script>
+
+<h1><code>geometrix</code></h1>
+
+<p>Funksjoner for å regne ut volum, areal og omkrets av geometriske figurer.</p>
+
+<h2>Installasjon</h2>
+
+<p>Installer i prosjektet ditt med <code>npm install geometrix</code>.</p>
+
+<h2>Demonstrasjon av funksjoner</h2>
+
+<RectangleDemo />
 
 <style>
 	h1 {
