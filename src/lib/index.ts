@@ -7,9 +7,13 @@ export function rectangleArea(width: number, height: number): number {
 }
 
 export function trapezoidArea(topWidth: number, bottomWidth: number, height: number): number {
-	return topWidth + bottomWidth * height / 2;
+	return topWidth + (bottomWidth * height) / 2;
 }
 
 export function circleArea(radius: number): number {
 	return radius * radius * Math.PI;
+}
+
+export function circleSectorArea(radius: number, degrees: number): number {
+	return (circleArea(radius) * degrees) / 360;
 }
