@@ -6,7 +6,7 @@
 </script>
 
 <h3>
-	<code>circleArea(radius, height)</code>
+	<code>circleArea(radius)</code>
 </h3>
 <p>Regner ut arealet av en sirkel: <code>π * radius * radius</code></p>
 <enhanced:img class="illustration" src="./circle.png" alt="Sirkel" />

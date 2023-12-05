@@ -39,7 +39,7 @@ describe('circle area', () => {
 	it('area with radius 1 equals Math.PI', () => {
 		expect(circleArea(1)).toBe(Math.PI);
 	});
-	it('area with top width 0, bottom width 0 and height 0 to equal 0', () => {
+	it('area with radius 0 equals 0', () => {
 		expect(circleArea(0)).toBe(0);
 	});
 });
