@@ -30,7 +30,7 @@ describe('trapezoid area', () => {
 	it('area with top width 2, bottom width 3 and height 4 equals 10', () => {
 		expect(trapezoidArea(2, 3, 4)).toBe(10);
 	});
-	it('area with top width 0, bottom width 0 and height 0 to equal 0', () => {
+	it('area with top width 0, bottom width 0 and height 0 equals 0', () => {
 		expect(trapezoidArea(0, 0, 0)).toBe(0);
 	});
 });
